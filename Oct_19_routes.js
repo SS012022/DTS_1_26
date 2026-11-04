@@ -15,6 +15,9 @@ app
   .put((req, res) => {
     res.send("Updating student data");
   })
+  .patch((req, res) => {
+    res.send("Some patches are working...");
+  })
   .delete((req, res) => {
     res.send("deleting student record");
   });
